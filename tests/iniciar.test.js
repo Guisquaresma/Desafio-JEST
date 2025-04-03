@@ -1,4 +1,4 @@
-const { iniciar } = require('./script.js');
+const { iniciar } = require('../script.js');
 
 test('Deve iniciar o jogo criando bolas periodicamente', () => {
     jest.useFakeTimers();

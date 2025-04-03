@@ -1,4 +1,4 @@
-const { estourar } = require('./script.js');
+const { estourar } = require('../script.js');
 
 test('Deve remover a bola ao estourar', () => {
     const bola = document.createElement('div');
